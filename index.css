@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+.container {
+  border: 6px solid black;
+  /* display: inline-flex; */
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* 
+  height: 400px; */
+  /* background-color: 
+  aqua; */
+  height: 100vh;
+  align-items: flex-start;
+  /* width: 100%; */
+
+  /* flex-flow: column wrap-reverse ; */
+  /* justify-content: center; */
+  /* justify-content: space-evenly; */
+  /* align-items: baseline; */
+  /* align-content: space-around; */
+}
+
+.flex-item {
+  color: white;
+  font-size: 1 rem;
+  padding: 1 rem;
+  text-align: center;
+  /* width: 8rem; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 0; */
+  /* flex-basis: auto; */
+}
+
+.item-1 {
+  background-color: beige;
+  /* padding-bottom: 3rem; */
+  align-self: flex-start;
+}
+.item-2 {
+  background-color: aquamarine;
+  /* padding-bottom: 5rem; */
+  align-self: flex-end;
+}
+.item-3 {
+  background-color: blue;
+  /* padding-bottom: 3rem; */
+  align-self: center;
+}
+.item-4 {
+  background-color: blueviolet;
+  /* order: 1; */
+  /* flex-shrink: 4; */
+  align-self: stretch;
+}
+.item-5 {
+  background-color: chartreuse;
+  /* flex-grow: 1; */
+}
+.item-6 {
+  background-color: crimson;
+}
+.item-7 {
+  background-color: cyan;
+  /* flex-grow: 2; */
+}
+.item-8 {
+  background-color: darkslategrey;
+}
+.item-9 {
+  background-color: gold;
+}
